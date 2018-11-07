@@ -1,0 +1,6 @@
+# CONCEPTS
+
+- Fields: Controlled Form Components that allow input/show/change data (TextField, TextAreaField, ValueField)
+- State Holder: Hold state and control Fields (Form, Control)
+- Wrappers: Give structure to form fields (HrLabel, Row, Fixes)
+- Validators: validate and input field on change (required, email)

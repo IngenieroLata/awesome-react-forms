@@ -1,0 +1,19 @@
+.form-control {
+  margin-bottom: 1.2em;
+  text-align: initial;
+
+  .form-control__label {
+    padding-top: 10px;
+    margin-bottom: 0.7em;
+
+    label,
+    small {
+      letter-spacing: initial;
+      text-transform: initial;
+    }
+    small {
+      margin-left: 1em;
+      font-size: 11px;
+    }
+  }
+}

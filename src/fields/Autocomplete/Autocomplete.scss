@@ -1,0 +1,39 @@
+.autocomplete {
+  display: inherit;
+  position: relative;
+}
+
+.autcomplete__suggestions {
+  background-color: white;
+  border: 1px solid #000;
+  list-style: none;
+  margin-top: 0;
+  max-height: 141px;
+  overflow-y: auto;
+  position: absolute;
+  padding: 0;
+  width: 100%;
+  text-align: initial;
+
+  .autcomplete__item {
+    text-transform: initial;
+    padding: 0.4em 0;
+    a {
+      text-decoration: none;
+      display: block;
+      padding: 6px 10px;
+    }
+    &:last-child {
+      margin-bottom: 0;
+    }
+    &:hover a,
+    &.active a {
+      color: #808080;
+    }
+
+    &.autcomplete__item--empty > span {
+      display: block;
+      padding: 0.4em 10px;
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "name": "awesome-react-forms",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^16.6.0",
+    "react-dom": "^16.6.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "@storybook/addon-actions": "^4.0.0-rc.6",
+    "@storybook/addon-links": "^4.0.0-rc.6",
+    "@storybook/addons": "^4.0.0-rc.6",
+    "@storybook/react": "^4.0.0-rc.6",
+    "babel-loader": "^8.0.4",
+    "storybook-addon-jsx": "^5.4.0"
+  },
+  "scripts": {
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  }
+}
